@@ -1,0 +1,6 @@
+from termcolor import cprint
+import emoji
+
+print("Hello")
+print(emoji.emojize("Python is fun :red_heart:"))
+cprint("Hello", "green", "on_red")
